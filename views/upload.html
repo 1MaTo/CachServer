@@ -1,0 +1,19 @@
+<html>
+<head>
+   	<title>Upload document</title>
+</head>
+<body>
+<h2>Upload new document:</h2>
+<form enctype="multipart/form-data" action="upload" method="post">
+    <input type="file" name="uploadfile" />
+    <br><br>
+    <input type="submit" value="Upload" />
+</form>
+<h2>Delete document:</h2>
+<form action="delete" method="POST">
+    <input type="text" name="deletefile" placeholder="Enter document name"/>
+    <br><br>
+    <input type="submit" value="Delete" />
+</form>
+</body>
+</html>
